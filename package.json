@@ -19,6 +19,7 @@
   "dependencies": {
     "atob": "^2.1.2",
     "canvas": "^2.7.0",
+    "draco3dgltf": "^1.4.3",
     "fflate": "^0.6.10",
     "node-blob": "0.0.2",
     "three": "^0.128.0",
