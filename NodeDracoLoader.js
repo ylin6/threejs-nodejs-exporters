@@ -54,7 +54,7 @@ THREE.DRACOLoader.prototype = {
     );
   },
 
-  setPath: function (value) {
+  setDecoderPath: function (value) {
     this.path = value;
     return this;
   },
@@ -276,7 +276,7 @@ THREE.DRACOLoader.prototype = {
       geometryBuffer[attributeName][i] = attributeData.GetValue(i);
     }
     // Add attribute to THREEJS geometry for rendering.
-    geometry.addAttribute(
+    geometry.setAttribute(
       attributeName,
       new TypedBufferAttribute(geometryBuffer[attributeName], numComponents)
     );
