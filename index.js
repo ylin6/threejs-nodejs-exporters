@@ -19,7 +19,7 @@ require("three/examples/js/loaders/DRACOLoader");
 require("three/examples/js/loaders/FBXLoader");
 require("three/examples/js/loaders/OBJLoader");
 const USDZExporter = require("./USDZExporter");
-const NodeDRACOLoader = require("./NodeDRACOLoader");
+const NodeDRACOLoader = require("./NodeDracoLoader");
 
 const DRACOLoader = new NodeDRACOLoader();
 DRACOLoader.getDecoderModule = () => {};
